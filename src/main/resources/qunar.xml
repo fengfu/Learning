@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+    <service name="Publisher" class="qunar.rpc.publish.netty.HttpFileServer"/>
+
+    <!--这里的name不能修改-->
+    <service name="RPCSuiteClient" class="qunar.hc.HttpPool"/>
+</server>

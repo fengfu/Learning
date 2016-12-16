@@ -1,0 +1,3 @@
+io.fengfu.learning.spi.HelloServiceR2D2Impl
+io.fengfu.learning.spi.HelloServiceC3poImpl
+io.fengfu.learning.spi.HelloServiceBB8Impl
