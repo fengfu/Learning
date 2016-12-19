@@ -1,4 +1,4 @@
-package io.fengfu.learning.guava.chapter2;
+package io.fengfu.learning.guava;
 
 import com.google.common.base.Strings;
 import org.junit.Test;

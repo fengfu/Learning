@@ -1,4 +1,4 @@
-package io.fengfu.learning.guava.chapter2;
+package io.fengfu.learning.guava;
 
 import com.google.common.base.Joiner;
 import com.google.common.collect.Maps;
