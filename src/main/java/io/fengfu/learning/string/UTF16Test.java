@@ -7,7 +7,7 @@ public class UTF16Test {
     public static void main(String args[]) throws Exception {
         // bytes in the first argument, encoded using second argument
 //        byte[] bs = "\uD840\uDFA0丰富".getBytes("GBK");
-        byte[] bs = "富".getBytes("GB18030");
+        byte[] bs = "BJS".getBytes("utf16");
         String json = "{\"name\": \"fengfu\",\"sex\":\"male\",\"age\":37}";
         System.err.println(bs.length + " bytes:");
 
