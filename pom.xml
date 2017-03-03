@@ -17,6 +17,31 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+
+        <!--dubbo-->
+        <dependency>
+            <groupId>qunar.common</groupId>
+            <artifactId>common-rpc</artifactId>
+            <version>8.3.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qunar.flightdetail</groupId>
+            <artifactId>oag_data_api</artifactId>
+            <version>1.0.8</version>
+        </dependency>
+
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
@@ -128,13 +153,6 @@
             <version>1.2.9</version>
         </dependency>
 
-        <!--dubbo-->
-        <dependency>
-            <groupId>qunar.common</groupId>
-            <artifactId>common-rpc</artifactId>
-            <version>8.3.6</version>
-        </dependency>
-
         <!-- slf4j -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -178,12 +196,6 @@
             <groupId>org.eclipse.birt.runtime</groupId>
             <artifactId>org.eclipse.birt.runtime</artifactId>
             <version>4.4.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.qunar.flightdetail</groupId>
-            <artifactId>oag_data_api</artifactId>
-            <version>20160722-atpco-FLIGHT-26213-SNAPSHOT</version>
         </dependency>
 
         <dependency>
