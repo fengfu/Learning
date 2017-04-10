@@ -10,7 +10,6 @@ import java.util.concurrent.Semaphore;
 public class SemaphoreDemo implements Runnable {
     final Semaphore semaphore = new Semaphore(5);
 
-    @Override
     public void run() {
         try {
             semaphore.acquire();
