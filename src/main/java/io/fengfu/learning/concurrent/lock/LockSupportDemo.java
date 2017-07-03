@@ -1,4 +1,4 @@
-package io.fengfu.learning.concurrent;
+package io.fengfu.learning.concurrent.lock;
 
 import java.util.concurrent.locks.LockSupport;
 
